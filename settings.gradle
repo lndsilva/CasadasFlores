@@ -1,0 +1,2 @@
+rootProject.name = "Casa das Flores"
+include ':app'
