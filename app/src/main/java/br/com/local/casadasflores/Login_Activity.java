@@ -10,5 +10,12 @@ public class Login_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_layout);
+
+
+        Pessoa pessoa = new Pessoa();
+
+        pessoa.setNome("Senac Largo Treze");
+
+        pessoa.getNome();
     }
 }
